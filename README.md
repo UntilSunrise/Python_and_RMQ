@@ -10,4 +10,5 @@
 
 * Results
   > [Results are copied and added to a pdf file]()
+
 Additionally, the results are added to the PDF file
