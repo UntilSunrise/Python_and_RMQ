@@ -1,6 +1,6 @@
 # Python_and_RMQ
 ## Task conditions
-* [Up with Docker RabbitMQ]()\n
+* [Up with Docker RabbitMQ]()
   
   First what you need start and run docker-container. How to do this described here.
   
