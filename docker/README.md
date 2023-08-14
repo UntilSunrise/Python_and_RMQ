@@ -19,7 +19,7 @@
   CONTAINER ID   IMAGE                COMMAND             CREATED          STATUS          PORTS                                                                                      NAMES
   d7051c741464   rabbitmq-container   "rabbitmq-server"   28 seconds ago   Up 27 seconds   0.0.0.0:5672->5672/tcp, :::5672->5672/tcp, 0.0.0.0:15672->15672/tcp, :::15672->15672/tcp   rabbitmq-instance
   ```
-* Third: you need create two files: [send.py](https://github.com/UntilSunrise/Python_and_RMQ/blob/master/docker/python_files/send.py) [receive.py]() and run it:
+* Third: you need create two files: [send.py](https://github.com/UntilSunrise/Python_and_RMQ/blob/master/docker/python_files/send.py) [receive.py](https://github.com/UntilSunrise/Python_and_RMQ/blob/master/docker/python_files/receive.py) and run it:
   This shows the output of all commands individually with subsequent file changes:
   ```
   [root@localhost rabbitmqpy]# python3 send.py
