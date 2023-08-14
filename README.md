@@ -9,6 +9,4 @@
   Opened the link, just take and create python files with code, then run them. Done [here](https://github.com/UntilSunrise/Python_and_RMQ/tree/master/docker/python_files).
 
 * Results
-  > [Results are copied and added to a pdf file]()
-
-Additionally, the results are added to the PDF file
+Additionally, the results are added to this [PDF file]()
