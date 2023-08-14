@@ -2,7 +2,7 @@
 ## Task conditions
 * [Up with Docker RabbitMQ]()
   
-  First what you need start and run docker-container. How to do this described here.
+  \nFirst what you need start and run docker-container. How to do this described here.
   
 * [Follow the steps from this link]()
   Opened the link, just take and create python files with code, then run them. Done here.
