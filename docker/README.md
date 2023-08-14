@@ -19,6 +19,15 @@
   CONTAINER ID   IMAGE                COMMAND             CREATED          STATUS          PORTS                                                                                      NAMES
   d7051c741464   rabbitmq-container   "rabbitmq-server"   28 seconds ago   Up 27 seconds   0.0.0.0:5672->5672/tcp, :::5672->5672/tcp, 0.0.0.0:15672->15672/tcp, :::15672->15672/tcp   rabbitmq-instance
   ```
-* [Results]()
-  > [Results are copied and added to a pdf file]()
-Additionally, the results are added to the PDF file
+* Third: you need create two files: [send.py]() [receive.py]() and run it:
+  This shows the output of all commands individually with subsequent file changes:
+  ```
+  [root@localhost rabbitmqpy]# python3 send.py
+  [x] Sent 'Hello World!'
+
+  [root@localhost rabbitmqpy]# python3 receive.py
+  [*] Waiting for messages. To exit press CTRL+C
+  [x] Received b'Hello World!'
+  [x] Received b'Hello World!'
+  ^CInterrupted
+  ```
